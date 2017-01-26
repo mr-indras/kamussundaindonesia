@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.dras.kamussundaindonesia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="project.dras.kamussundaindonesia.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="project.dras.kamussundaindonesia.AngkaActivity"
+            android:label="@string/category_angka"
+            android:parentActivityName="project.dras.kamussundaindonesia.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="project.dras.kamussundaindonesia.MainActivity" />
+        </activity>
+        <activity
+            android:name="project.dras.kamussundaindonesia.PrasaActivity"
+            android:label="@string/category_prasa"
+            android:parentActivityName="project.dras.kamussundaindonesia.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="project.dras.kamussundaindonesia.MainActivity" />
+        </activity>
+        <activity
+            android:name="project.dras.kamussundaindonesia.WarnaActivity"
+            android:label="@string/category_warna"
+            android:parentActivityName="project.dras.kamussundaindonesia.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="project.dras.kamussundaindonesia.MainActivity" />
+        </activity>
+        <activity
+            android:name="project.dras.kamussundaindonesia.KeluargaActivity"
+            android:label="@string/category_keluarga"
+            android:parentActivityName="project.dras.kamussundaindonesia.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="project.dras.kamussundaindonesia.MainActivity" />
+        </activity>
+        <activity android:name="project.dras.kamussundaindonesia.Informasi"
+            android:label="@string/informasi"
+            android:parentActivityName="project.dras.kamussundaindonesia.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="project.dras.kamussundaindonesia.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bahasa Sunda - Indonesia</string>
+    <string name="action_settings">Settings</string>
+    <string name="category_angka">Angka</string>
+    <string name="category_prasa">Prasa</string>
+    <string name="category_keluarga">Keluarga</string>
+    <string name="category_warna">Warna</string>
+    <string name="informasi">Tentang Aplikasi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#323232</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="listColor">#fff</color>
+    <color name="bgList">#E3F2FD</color>
+    <color name="bg_angka">#BB7AF5</color>
+    <color name="bg_prasa">#379237</color>
+    <color name="bg_keluarga">#16AFCA</color>
+    <color name="bg_warna">#8800A0</color>
+</resources>
